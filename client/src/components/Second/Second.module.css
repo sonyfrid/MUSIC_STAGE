@@ -1,0 +1,33 @@
+.over {
+    /* margin-top: 250px !important; */
+}
+
+.ono {
+    /* height: 40px !important; */
+    /* width: 1000px !important; */
+}
+
+.fontword1 {
+    font-size: 60px;
+    text-align: center;
+}
+
+.fontword2 {
+    font-size: 45px;
+    text-align: center;
+}
+
+.selectorPad {
+    margin-right: 90px;
+}
+
+.knopka {
+    width: 940px !important;
+    color: azure;
+    margin-bottom: 10px !important;
+}
+
+
+.dataevent{
+    /* padding-left: 140px !important; */
+}

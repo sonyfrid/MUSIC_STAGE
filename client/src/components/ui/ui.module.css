@@ -1,0 +1,38 @@
+.button, .input, .textarea, .select, .button a {
+  box-sizing: border-box;
+  width: 20rem;
+  height: 2.7rem;
+  margin-top: -4px;
+  /* left: 983px;
+  top: 438px; */
+  border: 2px solid #102E30;
+  outline:none;
+  font-size: 25px;
+  padding-left:0.6rem;
+  color: #102E30;
+}
+
+.divinput {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0.3rem;
+}
+
+.divbtn {
+  /* width: 100%; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  padding: 0.3rem;
+}
+
+.button:hover {
+  background: #102E30;
+  color: #E6E6E6;
+}
+
+.button:active {
+  background: #184348;
+}

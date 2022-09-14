@@ -1,0 +1,19 @@
+img {
+    opacity: 0.9;
+}
+
+.text {
+    font-style: bold;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #722F2F;
+}
+
+.text2 {
+    font-style: bold;
+    font-size: 40px;
+    margin-top: -80px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    color: #722F2F;
+}

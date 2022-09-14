@@ -1,0 +1,53 @@
+:root {
+  --color-root-green: #102E30;
+  --color-root-white: #ffffff;
+  --color-btn-transp: #e6e6e62e;
+  --color-btn-transp-var: #e6e6e671;
+  --color-btn-transp-hov: #e6e6e671;
+  --color-btn-transp-act: #e6e6e68d;
+}
+
+.divavatar {
+  position: absolute;
+  height: 16rem;
+  width: 12rem;
+  left: calc(100% - 12rem);
+}
+
+.divcanvas {
+  background: linear-gradient(rgba(0, 0, 0, 0.492), rgba(82, 82, 82, 0.329)),
+    url("https://images.unsplash.com/photo-1561921651-e8130cfc3e61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80") center/cover;
+display: flex;
+/* justify-content: center; */
+align-items: center;
+  }
+
+.divcanvas button {
+  box-sizing: border-box;
+  width: 100%;
+  height: 2.5rem;
+  /* left: 983px;
+  top: 438px; */
+  border: 0;
+  background: var(--color-btn-transp);
+  outline: none;
+  padding-left: 0.6rem;
+  color: var(--color-root-white);
+}
+
+.divcanvas a {
+  color: var(--color-root-white);
+}
+
+.divcanvas button:hover {
+  background: var(--color-btn-transp-hov);
+}
+
+.divcanvas button:active {
+  background: var(--color-btn-transp-act);
+}
+
+.divcanvas h5 {
+  color: var(--color-root-white);
+  font-size: 1.5rem;
+}

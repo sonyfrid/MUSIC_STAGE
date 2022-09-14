@@ -1,0 +1,72 @@
+.headdiv {
+  display: flex;
+  flex-direction: row;
+}
+
+.imegediv {
+  background-image: url('https://images.wallpapershq.com/wallpapers/5877/wallpaper_5877_2560x1440.jpg');
+  background-size: cover;
+  width: 65vw;
+  height: 100vh;
+}
+
+.formdiv {
+  background-color: rgb(230, 230, 230);
+  width: 35vw;
+  height: 100vh;
+}
+
+.formdivlogo {
+  height: 35vh;
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 2rem;
+}
+
+/* .formdivlogo img {
+  width: auto;
+  height: auto;
+} */
+
+.hrline {
+  margin: 0 8rem 0 0;
+  padding: 0;
+  height: 0;
+  border: 0;
+  border-top: 6px solid red;
+}
+
+.formdivbody {
+  /* height: 500px; */
+  height: calc(67vh - 5px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* padding: 0.3rem; */
+  overflow-y: scroll;
+  font-size: 20px;
+  color: rgb(8, 50, 50);
+  /* margin-top: 20px; */
+}
+
+#textbody {
+  font-size: 500px;
+}
+
+.formdivbody * {
+  margin: 0.7rem;
+}
+
+.formdivbody h3 {
+  text-align: center;
+}
+
+.formdivform {
+  justify-content: start;
+  padding: 3rem;
+}
+
+.formdivform * {
+  margin: 0.1rem;
+}
